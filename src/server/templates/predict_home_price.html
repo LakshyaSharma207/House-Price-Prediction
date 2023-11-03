@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction Tool</title>
+	<style>
+	h2 {
+		font-size: 18px;
+		margin-bottom: 8px;
+	}
+	.submit{
+	background: #a5dc86;
+	width: 76%;
+	border: 0;
+	margin: 25px 0 10px;
+	box-sizing: border-box;
+	font-size: 15px;
+	height: 35px;
+	text-align: center;
+	border-radius: 5px;
+	}
+
+	.result{
+		background: #dcd686;
+		width: 176%;
+		border: 0;
+		margin: 25px 0 10px;
+		box-sizing: border-box;
+		font-size: 15px;
+		height: 35px;
+		text-align: center;
+	}
+
+	body, html {
+	height: 100%;
+	background-color: antiquewhite;
+	}
+	</style>
+</head>
+<body>
+	<div id="uiEstimatedPrice" class="result">	
+		<h2>Estimated Price: {{ result }} Cr</h2>
+	</div>
+</body>
+</html>
